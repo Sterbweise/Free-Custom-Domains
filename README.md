@@ -1,7 +1,7 @@
 # Free domain names for Frog.tech funnel
 [![Frog.tech - latest](https://img.shields.io/badge/Frog.tech-latest-43ddf6?style=for-the-badge&logo=fueler)](https://frog.tech) [![Cloudflare - Workers x DNS](https://img.shields.io/badge/Cloudflare-Workers_x_DNS-f6821f?style=for-the-badge&logo=cloudflare)](https://cloudflare.com) ![JavaScript - latest](https://img.shields.io/badge/JavaScript-latest-f7df1e?style=for-the-badge&logo=javascript)
 
-*In this tutorial, I will show you how to save on a monthly subscription to Frog.tech if your goal is to associate a custom domain name with your funnels.*
+*In this tutorial, I will show you how to save on a monthly subscription to Frog.tech if your goal is to associate a custom domain name to your funnels.*
 
 **It takes 10 minutes to set up.**
 
