@@ -9,7 +9,7 @@ Configuration
 ---
 
 1. **Purchase a Domain Name**  
-   You can purchase a domain name from any provider. However, I recommend Ionos, where you can acquire a domain name for £1 per year.
+   You can purchase a domain name from any provider. However, I recommend Ionos, where you can acquire a domain name for $1 per year.
 
 2. **Create a Cloudflare Account**  
    Create a Cloudflare account and register it for personal use.
