@@ -15,7 +15,7 @@ Configuration
    Create a Cloudflare account and register it for personal use.
 
 3. **Register Your Domain Name on Cloudflare**  
-   To do this, follow Cloudflare's instructions. You will need to obtain Cloudflare's name servers and replace those of Ionos or your domain provider with Cloudflare's.
+   To do this, follow Cloudflare's instructions. To do this, you need to change your DNS name servers from ionos or your provider to those of Cloudflare.
 
 4. **Configure the DNS Zone**  
    If your domain name is already in use for your activities, reconfigure the DNS zone on Cloudflare. If your domain name points to a server, you can move on to the next step. Otherwise, create two A-type DNS records for the root (`@`) and `www`, pointing to `192.0.2.1`, with the Cloudflare proxy option enabled (the orange cloud).
