@@ -6,11 +6,19 @@ async function handleRequest(request) {
   // Parse the URL from the incoming request
   const url = new URL(request.url)
 
-  // Check if the user is trying to access the /custom-path route
-  if (url.pathname === "/custom-path") {
-    // Set the destination URL
-    const destinationUrl = 'YOUR-FUNNEL-URL-CUSTOM'
-    
+  // List of paths to redirect
+  const pathsToRedirect = ["/custom-path-1", "/custom-path-2"]
+
+  // Check if the request path matches any of the specified paths
+  if (pathsToRedirect.includes(url.pathname)) {
+    // Set the destination URL based on the path
+    let destinationUrl = ''
+    if (url.pathname === "/custom-path-1") {
+      destinationUrl = 'YOUR-CUSTOM-FUNNEL-URL-1'
+    } else if (url.pathname === "/custom-path-2") {
+      destinationUrl = 'YOUR-CUSTOM-FUNNEL-URL-2'
+    }
+
     // Create a new request object with the destination URL
     const modifiedRequest = new Request(destinationUrl, request)
 
@@ -20,7 +28,7 @@ async function handleRequest(request) {
     // Create a new response based on the original response
     const newResponse = new Response(response.body, response)
 
-    // Set CORS headers to allow access from any origin
+    // Add CORS headers to allow access from any origin
     newResponse.headers.set('Access-Control-Allow-Origin', '*')
 
     // Ensure the correct content type is set (defaulting to HTML if missing)
